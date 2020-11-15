@@ -9,6 +9,7 @@ function NavBar()
         <NavLink activeStyle={{color: 'white'}} to="/playlists"><div>playlists</div></NavLink>
         <NavLink activeStyle={{color: 'white'}} to="/artists"><div>artists</div></NavLink>
         <NavLink activeStyle={{color: 'white'}} to="/albums"><div>albums</div></NavLink>
+        <NavLink activeStyle={{color: 'white'}} to="/elastic"><div>search</div></NavLink>
         </div>
     );
 }

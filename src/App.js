@@ -11,6 +11,7 @@ import SongsHome from './components/SongsHome';
 import ArtistsHome from './components/ArtistsHome';
 import AlbumsHome from './components/AlbumsHome';
 import PlaylistsHome from './components/PlaylistsHome';
+import ElasticSearch from './components/ElasticSearch';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
       <Route path="/albums" exact component={AlbumsHome}/>
       <Route path="/albums/:id" component={AlbumPage}/>
     </Route>
+    <Route path="/elastic" component={ElasticSearch}/>
     <Route><div id="notfound">404 page not found</div></Route>
     </Switch>
     </div>
